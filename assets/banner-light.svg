@@ -28,7 +28,7 @@
     .card-title { font: 600 11px 'Segoe UI', sans-serif; fill: #64748b; text-transform: uppercase; letter-spacing: 0.8px; }
     .kpi-val { font: 700 20px 'Segoe UI', sans-serif; fill: #0f172a; }
     .kpi-tag { font: 600 11px 'Segoe UI', sans-serif; fill: #059669; }
-    .cursor { animation: blink 1.1s step-end infinite; fill: #0284c7; }
+    .cursor { animation: blink 1.1s step-end infinite; fill: #0284c7; font-weight: 700; }
     .bar-1 { transform-origin: bottom; animation: grow 1.2s ease-out forwards; }
     .bar-2 { transform-origin: bottom; animation: grow 1.4s ease-out forwards; }
     .bar-3 { transform-origin: bottom; animation: grow 1.6s ease-out forwards; }
@@ -58,9 +58,8 @@
   <circle cx="76" cy="200" r="4.5" fill="#f59e0b" opacity="0.8" />
   <circle cx="90" cy="200" r="4.5" fill="#10b981" opacity="0.8" />
   <text x="110" y="204" class="mono">
-    <tspan class="mono-kw">SELECT</tspan> insights, automation <tspan class="mono-kw">FROM</tspan> projects <tspan class="mono-kw">WHERE</tspan> impact = <tspan class="mono-str">'high'</tspan>;
+    <tspan class="mono-kw">SELECT</tspan> insight <tspan class="mono-kw">FROM</tspan> business_data <tspan class="mono-kw">WHERE</tspan> signal &gt; noise;<tspan class="cursor">_</tspan>
   </text>
-  <rect x="526" y="192" width="7" height="15" class="cursor" />
 
   <!-- Right Side: Mini Analytics Bento Card -->
   <rect x="585" y="34" width="295" height="190" rx="12" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.2" />
