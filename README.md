@@ -38,9 +38,9 @@
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h4>📈 <a href="https://github.com/julesbataller/Plat4terfood_simulated">Plat4terfood Simulated</a></h4>
-      <p>Simulation, traitement statistique et exploration de jeux de données alimentaires et logistiques développés sous <b>R</b>.</p>
-      <p><code>R</code> <code>Data Analysis</code> <code>Simulation</code></p>
+      <h4>📈 <a href="https://github.com/julesbataller/Priscope">Priscope — Analyse &amp; Modélisation R</a></h4>
+      <p>Observatoire décisionnel sous <b>R Shiny</b> &amp; <b>Shinylive</b> : modélisation économétrique avancée (<i>lme4</i>), décomposition de séries temporelles et cartographie interactive.</p>
+      <p><code>R</code> <code>Shiny</code> <code>Économétrie</code> <code>WebAssembly</code></p>
     </td>
     <td width="50%" valign="top">
       <h4>🧭 Focus Technique</h4>
